@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hongru Zhao"
+title: "Tuan Pham"
 author_profile: true
 redirect_from: 
   - /about/
