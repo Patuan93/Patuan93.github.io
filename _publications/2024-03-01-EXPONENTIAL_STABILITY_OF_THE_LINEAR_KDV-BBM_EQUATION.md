@@ -1,7 +1,6 @@
 ---
-title: "Exponential stability of the linear KdV-BBM equation"
+title: "Asymptotic analysis of high-dimensional uniformity tests under heavy-tailed alternatives"
 collection: publications
-date: 2024-3-01 
-paperurl: 'https://hongruzhao.github.io/files/EXPONENTIAL_STABILITY_OF_THE_LINEAR_KDV-BBM_EQUATION.pdf'
-citation: 'Kangsheng Liu, Zhuangyi Liu, and Hongru Zhao. Discrete and Continuous Dynamical Systems-B 29, no. 3 (2024): 1206-1216.'
+date: 2024-04-03 
+citation: 'with Tiefeng Jiang, under review at Biometrika.'
 ---
