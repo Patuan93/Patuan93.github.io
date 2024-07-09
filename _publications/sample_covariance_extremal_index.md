@@ -1,7 +1,6 @@
 ---
-title: "Distributed Algorithms for High-Dimensional Statistical Inference and Structure Learning with Heterogeneous Data"
+title: "On the largest entries of high-dimensional sample covariance matrix for populations of auto-regressive covariance structure: exact asymptotic and phase transition"
 collection: publications
-permalink: /publication/2024-04-11-paper
 date: 2024-04-11
-citation: 'Hongru Zhao, and Xiaotong Shen. (2024). Submitted.'
+citation: 'Jiang, T. and Pham, T. (2024). To be submitted to Annals of Applied Probability.'
 ---
