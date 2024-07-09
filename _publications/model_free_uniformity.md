@@ -1,7 +1,7 @@
 ---
-title: "Globally-Optimal Greedy Experiment Selection for Active Sequential Estimation"
+title: "A model-free test for uniformity on the high-dimensional hyperspheres"
 collection: publications
 date: 2024-02-13
-paperurl: 'https://arxiv.org/pdf/2402.08602'
-citation: 'Xiaoou Li, and Hongru Zhao. arXiv preprint arXiv:2402.08602 (2024).'
+paperurl: 'https://drive.google.com/file/d/1fn3yf_1QvnnaeqB0d5cZmcyp_DeL30sK/view'
+citation: 'with Tiefeng Jiang. Under review at Annales de l’Institut Henri Poincare (B) Probabilites et Statistiques.'
 ---
