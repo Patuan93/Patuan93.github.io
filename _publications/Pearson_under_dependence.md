@@ -3,5 +3,5 @@ title: "Asymptotic distributions of largest Pearson correlation coefficients und
 collection: publications
 date: 2024-04-02
 paperurl: 'https://arxiv.org/abs/2304.13102'
-citation: 'major revision requested at Annals of Statistics'
+citation: 'major revision requested at Annals of Statistics.'
 ---
