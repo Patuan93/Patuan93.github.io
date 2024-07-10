@@ -1,5 +1,5 @@
 ---
-title: "STAT 3011 - Intro Statistical Analysis"
+title: "STAT 3021 - Introduction to probability and statistics"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2023-fall-teaching
