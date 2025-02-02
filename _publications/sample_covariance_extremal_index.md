@@ -1,6 +1,6 @@
 ---
-title: "Largest entries of high-dimensional sample covariance matrix for populations of auto-regressive covariance structure: asymptotic theory and phase transition"
+title: "Largest entries of high-dimensional sample covariance matrix under auto-regressive covariance structure"
 collection: publications
-date: 2024-05-02
+date: 2024-04-02
 citation: 'with Tiefeng Jiang, major revision requested at Annals of Applied Probability.'
 ---
