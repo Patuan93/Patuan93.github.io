@@ -3,5 +3,5 @@ title: "Asymptotic Distributions of Largest Pearson Correlation Coefficients Und
 collection: publications
 date: 2024-04-11
 paperurl: "https://iopscience.iop.org/article/10.1088/1361-6420/ab15df"
-citation: '<a href="https://doi.org/10.1214/24-AOS2369" style="color: #1a0dab;">with Tiefeng Jiang, <em>Annals of Statistics</em>, 53(3): 907–928, 2025.</a>'
+citation: 'with Tiefeng Jiang, <a href="https://doi.org/10.1214/24-AOS2369" style="color: #1a0dab;"><em>Annals of Statistics</em>, 53(3): 907–928, 2025</a>.'
 ---
