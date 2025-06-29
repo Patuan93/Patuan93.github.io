@@ -2,5 +2,6 @@
 title: "Asymptotic distributions of largest Pearson correlation coefficients under dependent structures"
 collection: publications
 date: 2024-04-11
-citation: 'with Tiefeng Jiang, [Annals of Statistics, 53(3): 907-928, 2025](https://projecteuclid.org/journals/annals-of-statistics/volume-53/issue-3/Asymptotic-distributions-of-largest-Pearson-correlation-coefficients-under-dependent-structures/10.1214/24-AOS2462.full).'
+paperurl: 'https://iopscience.iop.org/article/10.1088/1361-6420/ab15df'
+citation: 'with Tiefeng Jiang, [Annals of Statistics, 53(3): 907-928, 2025].'
 ---
