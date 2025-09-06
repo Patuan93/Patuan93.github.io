@@ -5,8 +5,70 @@ permalink: /teaching/
 author_profile: true
 ---
 
-{% include base_path %}
+<style>
+  /* CV-style teaching list */
+  :root { --ink:#111; --muted:#6B7280; --accent:#2563EB; --rule:#E5E7EB; }
+  .teach-header{border-bottom:1px solid var(--rule);margin-bottom:1rem;padding-bottom:.4rem}
+  .teach-list{list-style:disc;padding-left:1.25rem}
+  .teach-list li{margin:.5rem 0}
+  .teach-role{color:var(--ink)}
+  .teach-venue{color:var(--accent)}
+  .teach-meta{color:var(--muted);margin-left:.35rem}
+  .teach-sub{margin:.2rem 0 0 .95rem;color:var(--muted);font-size:.95rem}
+  .teach-sub a{color:var(--accent);text-decoration:underline}
+  @media (max-width:600px){.teach-meta{display:block;margin-left:0}}
+</style>
 
-{% for post in site.teaching reversed %}
+<h1 class="teach-header">Teaching</h1>
+
+<!-- ===== Manual CV-style list ===== -->
+<ul class="teach-list">
+  <li>
+    <span class="teach-role">Instructor,</span>
+    <span class="teach-venue">STAT&nbsp;3021: Introduction to Probability and Statistics</span>
+    <span class="teach-meta">(Fall&nbsp;2023; Fall&nbsp;2022; Fall&nbsp;2021, University of Minnesota)</span>
+    <!-- Optional sublinks per term; keep or remove -->
+    <!--
+    <div class="teach-sub">
+      Syllabi:
+      <a href="#" target="_blank" rel="noopener">F2023</a> ·
+      <a href="#" target="_blank" rel="noopener">F2022</a> ·
+      <a href="#" target="_blank" rel="noopener">F2021</a>
+    </div>
+    -->
+  </li>
+
+  <li>
+    <span class="teach-role">Teaching Assistant,</span>
+    <span class="teach-venue">STAT&nbsp;5401: Multivariate Statistical Analysis</span>
+    <span class="teach-meta">(Spring&nbsp;2023, University of Minnesota)</span>
+    <!-- <div class="teach-sub">Course page: <a href="#" target="_blank" rel="noopener">link</a></div> -->
+  </li>
+
+  <li>
+    <span class="teach-role">Teaching Assistant,</span>
+    <span class="teach-venue">STAT&nbsp;5101: Mathematical Statistics</span>
+    <span class="teach-meta">(Spring&nbsp;2022, University of Minnesota)</span>
+  </li>
+
+  <li>
+    <span class="teach-role">Instructor,</span>
+    <span class="teach-venue">Qualifying Exams Review Sessions</span>
+    <span class="teach-meta">(Summer&nbsp;2022, University of Minnesota)</span>
+  </li>
+</ul>
+
+<!-- ===== Optional: keep your old course posts below, if you have any =====
+     If you still want to show the teaching posts generated from the _teaching/ collection,
+     leave the block below. If not, delete everything from here to the next comment. -->
+<hr style="border:0;border-top:1px solid var(--rule);margin:1.2rem 0" />
+
+{% include base_path %}
+{% assign teaching_posts = site.teaching | sort: 'date' %}
+{% if teaching_posts and teaching_posts.size > 0 %}
+<h2 style="margin:.2rem 0 .8rem 0">Course pages &amp; materials</h2>
+{% for post in teaching_posts reversed %}
   {% include archive-single.html %}
 {% endfor %}
+{% endif %}
+<!-- ===== End optional block ===== -->
