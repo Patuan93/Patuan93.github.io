@@ -98,6 +98,15 @@ author_profile: true
     </div>
   </li>
 
+   <li>
+    <div class="pub-title">
+      Time-uniform bounds for iterated algorithms (with A. Rinaldo, P. Sarkar).
+    </div>
+    <div class="pub-venue">
+      <span class="journal-plain">Preprint</span>
+    </div>
+  </li>
+
   <li>
     <div class="pub-title">
       Fluctuation of Riesz energy on the hyperspheres (with T. Jiang).
@@ -116,12 +125,5 @@ author_profile: true
     </div>
   </li>
 
-  <li>
-    <div class="pub-title">
-      Time-uniform bounds for iterated algorithms (with A. Rinaldo, P. Sarkar).
-    </div>
-    <div class="pub-venue">
-      <span class="journal-plain">Preprint</span>
-    </div>
-  </li>
+ 
 </ol>
