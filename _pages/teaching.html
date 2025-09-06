@@ -37,6 +37,12 @@ author_profile: true
     </div>
     -->
   </li>
+  <li>
+    <span class="teach-role">Teaching Assistant,</span>
+    <span class="teach-venue">STAT&nbsp;8112: Asymptotic theory </span>
+    <span class="teach-meta">(Spring&nbsp;2024, PhD level, University of Minnesota)</span>
+    <!-- <div class="teach-sub">Course page: <a href="#" target="_blank" rel="noopener">link</a></div> -->
+  </li>
 
   <li>
     <span class="teach-role">Teaching Assistant,</span>
@@ -61,14 +67,4 @@ author_profile: true
 <!-- ===== Optional: keep your old course posts below, if you have any =====
      If you still want to show the teaching posts generated from the _teaching/ collection,
      leave the block below. If not, delete everything from here to the next comment. -->
-<hr style="border:0;border-top:1px solid var(--rule);margin:1.2rem 0" />
-
-{% include base_path %}
-{% assign teaching_posts = site.teaching | sort: 'date' %}
-{% if teaching_posts and teaching_posts.size > 0 %}
-<h2 style="margin:.2rem 0 .8rem 0">Course pages &amp; materials</h2>
-{% for post in teaching_posts reversed %}
-  {% include archive-single.html %}
-{% endfor %}
-{% endif %}
 <!-- ===== End optional block ===== -->
