@@ -47,22 +47,22 @@ author_profile: true
 
   <li>
     <div class="pub-title">
-      Largest entries of high-dimensional sample covariance matrix under auto-regressive structure (with T. Jiang).
+      Lightspeed geometric dataset distance via sliced optimal transport (with H. Nguyen, K. Nguyen, N. Ho).
     </div>
     <div class="pub-venue">
-      <a class="journal" href="https://www.e-publications.org/ims/submission/AAP/user/submissionFile/65959?confirm=934ea880" target="_blank" rel="noopener">
-        Annals of Applied Probability (to appear)
+      <a class="journal" href="https://arxiv.org/abs/2501.18901" target="_blank" rel="noopener">
+        International Conference on Machine Learning (ICML), 2025
       </a>
     </div>
   </li>
 
   <li>
     <div class="pub-title">
-      Lightspeed geometric dataset distance via sliced optimal transport (with H. Nguyen, K. Nguyen, N. Ho).
+      Largest entries of high-dimensional sample covariance matrix under auto-regressive structure (with T. Jiang).
     </div>
     <div class="pub-venue">
-      <a class="journal" href="https://arxiv.org/abs/2501.18901" target="_blank" rel="noopener">
-        International Conference on Machine Learning (ICML), 2025
+      <a class="journal" href="https://www.e-publications.org/ims/submission/AAP/user/submissionFile/65959?confirm=934ea880" target="_blank" rel="noopener">
+        Annals of Applied Probability (to appear)
       </a>
     </div>
   </li>
