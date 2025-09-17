@@ -91,7 +91,7 @@ author_profile: true
 
   <li>
     <div class="pub-title">
-      Maximum of sparsely equicorrelated Gaussian fields and applications (with T. Jiang, Y. Qi).
+      Maximum of sparsely equicorrelated Gaussian fields and applications (with J. Heiny, T. Jiang and Y. Qi).
     </div>
     <div class="pub-venue">
       <span class="journal-plain">Annals of Applied Probability (to be submitted)</span>
