@@ -84,7 +84,7 @@ author_profile: true
     </div>
     <div class="pub-venue">
       <a class="journal" href="https://drive.google.com/file/d/1fn3yf_1QvnnaeqB0d5cZmcyp_DeL30sK/view?usp=share_link" target="_blank" rel="noopener">
-        Annals of Applied Probability (invited to resubmit)
+        Annals of Applied Probability (reject & resubmit, under revision)
       </a>
     </div>
   </li>
