@@ -90,6 +90,17 @@ author_profile: true
   </li>
 
   <li>
+  <div class="pub-title">
+  Convergence and Stability Analysis of Self-Consuming Generative Models with Heterogeneous Human Curation (with H. Zhao and J. Fu).
+    </div>
+    <div class="pub-venue">
+      <a class="journal" href="https://arxiv.org/abs/2511.09002" rel="noopener">
+      JMLR (under review)
+      </a>
+    </div>
+  </li>
+
+  <li>
     <div class="pub-title">
       Maximum of sparsely equicorrelated Gaussian fields and applications (with J. Heiny, T. Jiang and Y. Qi).
     </div>
