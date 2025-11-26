@@ -114,7 +114,9 @@ author_profile: true
       Time-uniform bounds for iterated algorithms (with A. Rinaldo, P. Sarkar).
     </div>
     <div class="pub-venue">
-      <span class="journal-plain">Preprint</span>
+      <a class="journal" href="https://arxiv.org/abs/2511.18273" rel="noopener">
+      preprint
+      </a>
     </div>
   </li>
 
