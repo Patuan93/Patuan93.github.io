@@ -125,6 +125,20 @@ author_profile: true
     </div>
   </li>
 
+   <li>
+    <div class="pub-title">
+      A note on time-uniform concentration inequality for matrix products
+ (with A. Rinaldo).
+    </div>
+    <div class="pub-venue">
+      <a class="journal" href="https://arxiv.org/abs/2511.20794" rel="noopener">
+      preprint
+      </a>
+    </div>
+  </li>
+
+  
+
   <li>
     <div class="pub-title">
       Fluctuation of Riesz energy on the hyperspheres (with T. Jiang).
