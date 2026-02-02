@@ -179,7 +179,7 @@ author_profile: true
 
    <li>
    <div class="pub-title">
-  Information-theoretic lower bound for confidence sequences near a singular points. 
+  Information-theoretic lower bound for confidence sequences near singular points. 
     </div>
          Working paper
   </li>
