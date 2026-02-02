@@ -179,6 +179,13 @@ author_profile: true
 
    <li>
    <div class="pub-title">
+  Streamming heteroskedastic PCA.
+    </div>
+         Working paper
+  </li>
+
+   <li>
+   <div class="pub-title">
   Information-theoretic lower bound for confidence sequences near singular points. 
     </div>
          Working paper
