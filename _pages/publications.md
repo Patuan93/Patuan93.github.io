@@ -78,6 +78,18 @@ author_profile: true
     </div>
   </li>
 
+   <li>
+  <div class="pub-title">
+  Convergence and Stability Analysis of Self-Consuming Generative Models with Heterogeneous Human Curation (with H. Zhao and J. Fu).
+    </div>
+    <div class="pub-venue">
+      <a class="journal" href="https://arxiv.org/abs/2511.09002" rel="noopener">
+      JMLR (under review)
+      </a>
+    </div>
+  </li>
+  
+
   <li>
     <div class="pub-title">
       Detecting non-uniform patterns on high-dimensional hyperspheres (with T. Jiang).
@@ -89,16 +101,7 @@ author_profile: true
     </div>
   </li>
 
-  <li>
-  <div class="pub-title">
-  Convergence and Stability Analysis of Self-Consuming Generative Models with Heterogeneous Human Curation (with H. Zhao and J. Fu).
-    </div>
-    <div class="pub-venue">
-      <a class="journal" href="https://arxiv.org/abs/2511.09002" rel="noopener">
-      JMLR (under review)
-      </a>
-    </div>
-  </li>
+ 
 
   <li>
     <div class="pub-title">
