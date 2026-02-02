@@ -159,3 +159,40 @@ author_profile: true
 
  
 </ol>
+
+<h2 class="pub-header" style="margin-top:1.25rem;">Working papers</h2>
+
+<ol class="pub-list" start="13">
+  <li>
+    <div class="pub-title">
+    Estimating the order of soft-max gating mixture-of-experts (with N. Ho and H. Nguyen).
+    </div>
+         Working paper
+      </a>
+    </div>
+  </li>
+
+  <li>
+   <div class="pub-title">
+    Heavy-tailed U-statistics in high dimensions and applications  (with J. Heiny and X. Hu).
+    </div>
+         Working paper
+      </a>
+    </div>
+  </li>
+
+  <li>
+   <div class="pub-title">
+    On the detection threshold of the Packing test.
+    </div>
+         Working paper
+      </a>
+    </div>
+  </li>
+
+  
+</ol>
+
+
+
+
