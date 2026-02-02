@@ -95,8 +95,8 @@ author_profile: true
       Detecting non-uniform patterns on high-dimensional hyperspheres (with T. Jiang).
     </div>
     <div class="pub-venue">
-      <a class="journal" href="https://drive.google.com/file/d/1fn3yf_1QvnnaeqB0d5cZmcyp_DeL30sK/view?usp=share_link" target="_blank" rel="noopener">
-        Annals of Applied Probability (reject & resubmit, under revision)
+      <a class="journal" href="https://arxiv.org/abs/2506.00444" target="_blank" rel="noopener">
+        Annals of Applied Probability (reject & resubmit, resubmitted)
       </a>
     </div>
   </li>
