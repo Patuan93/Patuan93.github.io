@@ -168,8 +168,6 @@ author_profile: true
     Estimating the order of soft-max gating mixture-of-experts (with N. Ho and H. Nguyen).
     </div>
          Working paper
-      </a>
-    </div>
   </li>
 
   <li>
@@ -177,8 +175,6 @@ author_profile: true
     Heavy-tailed U-statistics in high dimensions and applications  (with J. Heiny and X. Hu).
     </div>
          Working paper
-      </a>
-    </div>
   </li>
 
   <li>
@@ -186,8 +182,6 @@ author_profile: true
     On the detection threshold of the Packing test.
     </div>
          Working paper
-      </a>
-    </div>
   </li>
 
   
