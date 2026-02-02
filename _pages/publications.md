@@ -177,6 +177,13 @@ author_profile: true
          Working paper
   </li>
 
+   <li>
+   <div class="pub-title">
+  Information-theoretic lower bound for confidence sequences near a singular points. 
+    </div>
+         Working paper
+  </li>
+
   <li>
    <div class="pub-title">
     Heavy-tailed U-statistics in high dimensions and applications  (with J. Heiny and X. Hu).
