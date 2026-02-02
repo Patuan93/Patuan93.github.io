@@ -170,6 +170,13 @@ author_profile: true
          Working paper
   </li>
 
+    <li>
+   <div class="pub-title">
+  Streamming PCA in heavy-tailed elliptical model.
+    </div>
+         Working paper
+  </li>
+
   <li>
    <div class="pub-title">
     Heavy-tailed U-statistics in high dimensions and applications  (with J. Heiny and X. Hu).
