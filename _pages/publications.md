@@ -170,7 +170,7 @@ author_profile: true
          Working paper
   </li>
 
-    <li>
+  <li>
    <div class="pub-title">
   Streamming PCA in heavy-tailed elliptical model.
     </div>
