@@ -172,7 +172,14 @@ author_profile: true
 
   <li>
    <div class="pub-title">
-  Streamming PCA in heavy-tailed elliptical model.
+  Efficient Elliptical Component Analysis I: Polyak-Ruppert averaging.
+    </div>
+         Working paper
+  </li>
+
+  <li>
+   <div class="pub-title">
+Efficient Elliptical Component Analysis II: adaptive learning rates and cross-validation theory.
     </div>
          Working paper
   </li>
@@ -184,12 +191,7 @@ author_profile: true
          Working paper
   </li>
 
-   <li>
-   <div class="pub-title">
-  Information-theoretic lower bound for confidence sequences near singular points. 
-    </div>
-         Working paper
-  </li>
+   
 
   <li>
    <div class="pub-title">
