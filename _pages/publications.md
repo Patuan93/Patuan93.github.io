@@ -163,12 +163,6 @@ author_profile: true
 <h2 class="pub-header" style="margin-top:1.25rem;">Working papers</h2>
 
 <ol class="pub-list" start="13">
-  <li>
-    <div class="pub-title">
-    Estimating the order of soft-max gating mixture-of-experts (with N. Ho and H. Nguyen).
-    </div>
-         Working paper
-  </li>
 
   <li>
    <div class="pub-title">
@@ -187,6 +181,14 @@ Efficient Elliptical Component Analysis II: adaptive learning rates and cross-va
    <li>
    <div class="pub-title">
   Streamming heteroskedastic PCA.
+    </div>
+         Working paper
+  </li>
+
+
+  <li>
+    <div class="pub-title">
+    Estimating the order of soft-max gating mixture-of-experts (with N. Ho and H. Nguyen).
     </div>
          Working paper
   </li>
