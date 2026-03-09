@@ -109,7 +109,7 @@ author_profile: true
     </div>
     <div class="pub-venue">
       <a class="journal" href="https://arxiv.org/abs/2603.05306v1" target="_blank" rel="noopener">
-        Annals of Applied Probability (to be submit)
+        Annals of Applied Probability (under review)
       </a>
     </div>
   </li>
@@ -173,7 +173,14 @@ author_profile: true
 
   <li>
    <div class="pub-title">
-Efficient Elliptical Component Analysis II: adaptive learning rates and cross-validation theory.
+Efficient Elliptical Component Analysis II: adaptive learning rates.
+    </div>
+         Working paper
+  </li>
+
+   <li>
+   <div class="pub-title">
+On the straightness of 2-RF (with S. Roy, A. Rinaldo and P. Sarkar)
     </div>
          Working paper
   </li>
