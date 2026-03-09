@@ -15,4 +15,4 @@ Contact:  Robert A. Welch Hall, 105 E 24th St #5.216, Austin, TX 78712
 
 Email: pham0310 (at) umn (dot) edu  or  tuan.pham (at) austin (dot) utexas (dot) edu.
 
-My research interests lie broadly in high-dimensional statistics, applied probability and their connections to data science.
+My research interests lie broadly in high-dimensional statistics, applied probability and statistical machine learning.
