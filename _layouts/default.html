@@ -5,7 +5,7 @@ layout: compress
 {% include base_path %}
 
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+<html lang="{{ site.locale | slice: 0, 2 }}" class="no-js">
   <head>
     {% include head.html %}
     {% include head/custom.html %}
@@ -20,24 +20,36 @@ layout: compress
 
     <div class="page__footer">
       <footer>
+
         {% include footer/custom.html %}
         {% include footer.html %}
+
+        <div
+          class="mapmyvisitors-widget"
+          style="
+            width: 100%;
+            margin: 1.5rem auto;
+            text-align: center;
+            overflow: hidden;
+          "
+        >
+          <script
+            type="text/javascript"
+            id="mapmyvisitors"
+            src="https://mapmyvisitors.com/map.js?cl=ffffff&amp;w=a&amp;t=n&amp;d=Y0VnsvtFgOVQQvVv3UWCg8-n703eo5IBpOsBfpMFS14">
+          </script>
+
+          <noscript>
+            <a href="https://mapmyvisitors.com">
+              Visitor Map
+            </a>
+          </noscript>
+        </div>
+
       </footer>
     </div>
 
     {% include scripts.html %}
-
-    <!-- <script
-      type="text/javascript"
-      id="mapmyvisitors"
-      src="https://mapmyvisitors.com/map.js?d=Y0VnsvtFgOVQQvVv3UWCg8-n703eo5IBpOsBfpMFS14&cl=ffffff&w=a">
-    </script> -->
-
-    <script 
-      type='text/javascript' 
-      id='mapmyvisitors' 
-      src='https://mapmyvisitors.com/map.js?cl=ffffff&w=100&t=n&d=Y0VnsvtFgOVQQvVv3UWCg8-n703eo5IBpOsBfpMFS14'>
-      </script>
 
   </body>
 </html>
