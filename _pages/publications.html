@@ -102,6 +102,16 @@ author_profile: true
       white-space: normal;
     }
   }
+
+  /* Keep every complete citation on one visible line. */
+  .pub-list {
+    overflow-x: auto;
+  }
+
+  .pub-list > li,
+  .pub-list > li * {
+    white-space: nowrap !important;
+  }
 </style>
 
 <ol class="pub-list">
