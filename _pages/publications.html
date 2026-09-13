@@ -30,7 +30,7 @@ author_profile: true
     padding-bottom: 0.4rem;
   }
 
-  /* One continuous citation per paper; long entries wrap naturally. */
+  /* Publication list spacing. */
   .pub-list {
     list-style: decimal;
     padding-left: 1.55rem;
@@ -103,14 +103,27 @@ author_profile: true
     }
   }
 
-  /* Keep every complete citation on one visible line. */
+  /* Title and authors first; publication details on the next line. */
   .pub-list {
-    overflow-x: auto;
+    overflow-x: visible;
   }
 
   .pub-list > li,
   .pub-list > li * {
-    white-space: nowrap !important;
+    white-space: normal !important;
+  }
+
+  .pub-list .pub-title,
+  .pub-list .pub-venue {
+    display: block !important;
+  }
+
+  .pub-list .pub-venue {
+    margin-top: 0.15rem;
+  }
+
+  .pub-list .pub-venue > :first-child {
+    margin-left: 0;
   }
 </style>
 
