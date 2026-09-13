@@ -125,6 +125,24 @@ author_profile: true
   .pub-list .pub-venue > :first-child {
     margin-left: 0;
   }
+
+  /* This note stays on one line; other papers retain the two-line layout. */
+  .pub-list .pub-single-line {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  .pub-list .pub-single-line,
+  .pub-list .pub-single-line * {
+    white-space: nowrap !important;
+  }
+
+  .pub-list .pub-single-line .pub-title,
+  .pub-list .pub-single-line .pub-venue {
+    display: inline !important;
+    margin: 0;
+  }
 </style>
 
 <ol class="pub-list">
@@ -282,6 +300,7 @@ author_profile: true
          aria-label="PDF for Time-uniform bounds for iterative algorithms">pdf</a>
     </span>
   </li>
+  <li><span class="pub-single-line"><span class="pub-title"> <span class="paper-title">A note on time-uniform bound for matrix product</span> (with A. Rinaldo). </span> <span class="pub-venue"> <span class="tagpill">[preprint]</span> <a class="pdf-link" href="https://arxiv.org/abs/2511.20794" target="_blank" rel="noopener" aria-label="PDF for A note on time-uniform bound for matrix product">pdf</a> </span></span></li>
   <li>
     <span class="pub-title">
       <span class="paper-title">Extreme principal minors of deformed GOE and Wishart matrices</span>
@@ -318,19 +337,6 @@ author_profile: true
     <!-- <span class="pub-venue">
       <span class="tagpill">[to be submitted]</span>
     </span> -->
-  </li>
-  <li>
-    <span class="pub-title">
-      <span class="paper-title">A note on time-uniform bound for matrix product</span>
-      (with A. Rinaldo).
-    </span>
-    <span class="pub-venue">
-      <span class="tagpill">[preprint]</span>
-      <a class="pdf-link"
-         href="https://arxiv.org/abs/2511.20794"
-         target="_blank" rel="noopener"
-         aria-label="PDF for A note on time-uniform bound for matrix product">pdf</a>
-    </span>
   </li>
   <li>
     <span class="pub-title">
