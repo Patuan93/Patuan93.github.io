@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Publications &amp; Preprints</title>
 <style>
   :root {
     --ink: #111;
@@ -16,7 +10,6 @@
                 "TeX Gyre Pagella", Georgia, serif;
   }
 
-  /* Keep the CV-style font. */
   .page__title,
   .pub-list {
     font-family: var(--cv-serif);
@@ -28,7 +21,6 @@
     padding-bottom: 0.4rem;
   }
 
-  /* One continuous citation per paper; long entries wrap naturally. */
   .pub-list {
     list-style: decimal;
     padding-left: 1.55rem;
@@ -39,18 +31,18 @@
     line-height: 1.45;
   }
 
-  .pub-title {
+  .pub-list .pub-title {
     display: inline;
     color: var(--ink);
     font-weight: 400;
     line-height: inherit;
   }
 
-  .paper-title {
+  .pub-list .paper-title {
     font-style: italic;
   }
 
-  .pub-venue {
+  .pub-list .pub-venue {
     display: inline;
     margin: 0;
     color: var(--ink);
@@ -58,31 +50,28 @@
     line-height: inherit;
   }
 
-  /* Journal and conference names: bold blue. */
-  .journal,
-  .journal:visited {
+  .pub-list .journal,
+  .pub-list .journal:visited {
     color: var(--accent);
     font-style: normal;
     font-weight: 700;
     text-decoration: none;
   }
 
-  .journal:hover,
-  .journal:focus {
+  .pub-list .journal:hover,
+  .pub-list .journal:focus {
     text-decoration: underline;
   }
 
-  /* Status labels remain red. */
-  .tagpill {
+  .pub-list .tagpill {
     color: var(--tag);
     font-size: 0.82em;
     margin-left: 0.35rem;
     white-space: nowrap;
   }
 
-  /* Small boxed PDF links. */
-  .pdf-link,
-  .pdf-link:visited {
+  .pub-list .pdf-link,
+  .pub-list .pdf-link:visited {
     display: inline-block;
     margin-left: 0.35rem;
     border: 1px solid var(--pdf-border);
@@ -96,16 +85,13 @@
   }
 
   @media (max-width: 600px) {
-    .tagpill {
+    .pub-list .tagpill {
       white-space: normal;
     }
   }
 </style>
-</head>
-<body>
 
-<ol class="pub-list">
-
+<ol class="pub-list" markdown="0">
   <li>
     <span class="pub-title">
       <span class="paper-title">Microlocal analysis for spherical Radon transform: two nonstandard problems</span>
@@ -121,7 +107,6 @@
          aria-label="PDF for Microlocal analysis for spherical Radon transform: two nonstandard problems">pdf</a>
     </span>
   </li>
-
   <li>
     <span class="pub-title">
       <span class="paper-title">Asymptotic distributions of largest Pearson correlation coefficients under dependent structures</span>
@@ -137,7 +122,6 @@
          aria-label="PDF for Asymptotic distributions of largest Pearson correlation coefficients under dependent structures">pdf</a>
     </span>
   </li>
-
   <li>
     <span class="pub-title">
       <span class="paper-title">Lightspeed geometric dataset distance via sliced optimal transport</span>
@@ -153,7 +137,6 @@
          aria-label="PDF for Lightspeed geometric dataset distance via sliced optimal transport">pdf</a>
     </span>
   </li>
-
   <li>
     <span class="pub-title">
       <span class="paper-title">Largest entries of high-dimensional sample covariance matrix under autoregressive structure</span>
@@ -169,7 +152,6 @@
          aria-label="PDF for Largest entries of high-dimensional sample covariance matrix under autoregressive structure">pdf</a>
     </span>
   </li>
-
   <li>
     <span class="pub-title">
       <span class="paper-title">Asymptotic analysis of high-dimensional uniformity tests under heavy-tailed alternatives</span>
@@ -185,7 +167,6 @@
          aria-label="PDF for Asymptotic analysis of high-dimensional uniformity tests under heavy-tailed alternatives">pdf</a>
     </span>
   </li>
-
   <li>
     <span class="pub-title">
       <span class="paper-title">Detecting non-uniform patterns on high-dimensional hyperspheres</span>
@@ -202,7 +183,6 @@
          aria-label="PDF for Detecting non-uniform patterns on high-dimensional hyperspheres">pdf</a>
     </span>
   </li>
-
   <li>
     <span class="pub-title">
       <span class="paper-title">Exact detection threshold of the packing test</span>.
@@ -218,7 +198,6 @@
          aria-label="PDF for Exact detection threshold of the packing test">pdf</a>
     </span>
   </li>
-
   <li>
     <span class="pub-title">
       <span class="paper-title">Convergence and stability analysis of self-consuming generative models with heterogeneous curation</span>
@@ -235,7 +214,6 @@
          aria-label="PDF for Convergence and stability analysis of self-consuming generative models with heterogeneous curation">pdf</a>
     </span>
   </li>
-
   <li>
     <span class="pub-title">
       <span class="paper-title">Maximum of sparsely equicorrelated Gaussian fields and applications</span>
@@ -252,7 +230,6 @@
          aria-label="PDF for Maximum of sparsely equicorrelated Gaussian fields and applications">pdf</a>
     </span>
   </li>
-
   <li>
     <span class="pub-title">
       <span class="paper-title">Time-uniform bounds for iterative algorithms</span>
@@ -269,7 +246,6 @@
          aria-label="PDF for Time-uniform bounds for iterative algorithms">pdf</a>
     </span>
   </li>
-
   <li>
     <span class="pub-title">
       <span class="paper-title">Streaming PCA: averaging from a geometric perspective</span>
@@ -283,7 +259,6 @@
          aria-label="PDF for Streaming PCA: averaging from a geometric perspective">pdf</a>
     </span>
   </li>
-
   <li>
     <span class="pub-title">
       <span class="paper-title">Making Oja's algorithm converge with constant step sizes</span>
@@ -293,7 +268,6 @@
       <span class="tagpill">[to be submitted]</span>
     </span>
   </li>
-
   <li>
     <span class="pub-title">
       <span class="paper-title">Extreme principal minors of Wishart matrices</span>
@@ -303,24 +277,22 @@
       <a class="journal"
          href="https://arxiv.org/abs/2608.13154"
          target="_blank" rel="noopener">Annals of Applied Probability</a>.
-      <span class="tagpill">[to be submitted]</span>
+      <span class="tagpill">[under review]</span>
       <a class="pdf-link"
          href="https://arxiv.org/abs/2608.13154"
          target="_blank" rel="noopener"
          aria-label="PDF for Extreme principal minors of Wishart matrices">pdf</a>
     </span>
   </li>
-
   <li>
     <span class="pub-title">
       <span class="paper-title">On the sample correlation matrix under symmetric heavy-tailed data</span>
       (with J. Heiny).
     </span>
-    <span class="pub-venue">
+    <!-- <span class="pub-venue">
       <span class="tagpill">[to be submitted]</span>
-    </span>
+    </span> -->
   </li>
-
   <li>
     <span class="pub-title">
       <span class="paper-title">A note on time-uniform bound for matrix product</span>
@@ -334,49 +306,41 @@
          aria-label="PDF for A note on time-uniform bound for matrix product">pdf</a>
     </span>
   </li>
-
   <li>
     <span class="pub-title">
-      <span class="paper-title">Sharp threshold for the straightness of two-step Rectified flows</span>
+      <span class="paper-title">Straightness, non-straightness and approximate straightness of two-step Rectified Flows</span>
       (with S. Roy, A. Rinaldo, and P. Sarkar).
     </span>
   </li>
-
   <li>
     <span class="pub-title">
       <span class="paper-title">Fluctuation of Riesz energy on the hyperspheres</span>
       (with T. Jiang).
     </span>
-    <span class="pub-venue">
+    <!-- <span class="pub-venue">
       <span class="tagpill">[preprint]</span>
       <a class="pdf-link"
          href="https://drive.google.com/file/d/1EJ_arhnaWkjbTvWGlEM6s9Uc5rpCAMGV/view?usp=sharing"
          target="_blank" rel="noopener"
          aria-label="PDF for Fluctuation of Riesz energy on the hyperspheres">pdf</a>
-    </span>
+    </span> -->
   </li>
-
   <li>
     <span class="pub-title">
       <span class="paper-title">Heavy-tailed U-statistics in high dimensions and applications</span>
       (with J. Heiny and X. Hu).
     </span>
-    <span class="pub-venue">
+    <!-- <span class="pub-venue">
       <a class="journal"
          href="https://www.e-publications.org/ims/submission/AAP/user/submissionFile/65959?confirm=934ea880"
          target="_blank" rel="noopener">Bernoulli</a>.
       <span class="tagpill">[to be submitted]</span>
-    </span>
+    </span> -->
   </li>
-
   <li>
     <span class="pub-title">
       <span class="paper-title">On the power of the MaxT method</span>
       (with Z. Song and A. Rinaldo).
     </span>
   </li>
-
 </ol>
-
-</body>
-</html>
