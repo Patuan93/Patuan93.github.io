@@ -15,7 +15,7 @@ author_profile: true
 
 5. *Asymptotic analysis of high-dimensional uniformity tests under heavy-tailed alternatives* (with T. Jiang). **[Information and Inference: A Journal of the IMA, to appear](https://drive.google.com/file/d/1FhWiZQ6OyyIOj-volLgG3h7T73FVcFma/view)**. [pdf](https://arxiv.org/abs/2506.00393)
 
-6. *Detecting non-uniform patterns on high-dimensional hyperspheres* (with T. Jiang). **[Annals of Applied Probability](https://arxiv.org/abs/2506.00444)**. [reject & resubmission, resubmitted] [pdf](https://arxiv.org/abs/2506.00444)
+6. *Detecting non-uniform patterns on high-dimensional hyperspheres* (with T. Jiang). **[Annals of Statistics](https://arxiv.org/abs/2506.00444)**. [reject & resubmission, resubmitted] [pdf](https://arxiv.org/abs/2506.00444)
 
 7. *Exact detection threshold of the packing test*. **[Bernoulli](https://arxiv.org/abs/2608.00445)**. [under review] [pdf](https://arxiv.org/abs/2608.00445)
 
