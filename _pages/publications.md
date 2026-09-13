@@ -1,224 +1,382 @@
----
-layout: archive
-title: ""
-permalink: /publications/
-author_profile: true
----
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Publications &amp; Preprints</title>
 <style>
-  /* CV-style publications */
   :root {
-    --ink:#111; --muted:#6B7280; --accent:#2563EB; --rule:#E5E7EB;
+    --ink: #111;
+    --accent: #0000EE;
+    --tag: #FF0000;
+    --rule: #E5E7EB;
+    --pdf: #800080;
+    --pdf-border: #00FFFF;
+    --cv-serif: "Palatino Linotype", Palatino, "Book Antiqua",
+                "TeX Gyre Pagella", Georgia, serif;
   }
-  .pub-header{border-bottom:1px solid var(--rule);margin-bottom:1rem;padding-bottom:.4rem}
-  .pub-list{list-style:decimal;padding-left:1.25rem;counter-reset:pub}
-  .pub-list li{margin:.85rem 0}
-  .pub-title{color:var(--ink);font-weight:400;line-height:1.35}
-  .pub-venue{margin-top:.15rem;color:var(--ink);font-size:.98rem}
-  .journal, .journal:visited{color:var(--accent);font-style:italic;text-decoration:underline}
-  .journal-plain{color:var(--accent);font-style:italic;text-decoration:none}
-  @media (max-width:600px){.pub-venue{font-size:.95rem}}
-</style>
 
-<h1 class="pub-header">Publications &amp; Preprints</h1>
+  /* Keep the CV-style font. */
+  .page__title,
+  .pub-list {
+    font-family: var(--cv-serif);
+  }
+
+  .page__title {
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 1rem;
+    padding-bottom: 0.4rem;
+  }
+
+  /* One continuous citation per paper; long entries wrap naturally. */
+  .pub-list {
+    list-style: decimal;
+    padding-left: 1.55rem;
+  }
+
+  .pub-list li {
+    margin: 0.65rem 0;
+    line-height: 1.45;
+  }
+
+  .pub-title {
+    display: inline;
+    color: var(--ink);
+    font-weight: 400;
+    line-height: inherit;
+  }
+
+  .paper-title {
+    font-style: italic;
+  }
+
+  .pub-venue {
+    display: inline;
+    margin: 0;
+    color: var(--ink);
+    font-size: inherit;
+    line-height: inherit;
+  }
+
+  /* Journal and conference names: bold blue. */
+  .journal,
+  .journal:visited {
+    color: var(--accent);
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .journal:hover,
+  .journal:focus {
+    text-decoration: underline;
+  }
+
+  /* Status labels remain red. */
+  .tagpill {
+    color: var(--tag);
+    font-size: 0.82em;
+    margin-left: 0.35rem;
+    white-space: nowrap;
+  }
+
+  /* Small boxed PDF links. */
+  .pdf-link,
+  .pdf-link:visited {
+    display: inline-block;
+    margin-left: 0.35rem;
+    border: 1px solid var(--pdf-border);
+    background: #fff;
+    color: var(--pdf);
+    font-size: 0.78em;
+    font-weight: 700;
+    line-height: 1.1;
+    padding: 0.08em 0.24em;
+    text-decoration: none;
+  }
+
+  @media (max-width: 600px) {
+    .tagpill {
+      white-space: normal;
+    }
+  }
+</style>
+</head>
+<body>
 
 <ol class="pub-list">
-  <li>
-    <div class="pub-title">
-      Microlocal analysis for spherical Radon transform: two nonstandard problems (with L. Nguyen).
-    </div>
-    <div class="pub-venue">
-      <a class="journal" href="https://iopscience.iop.org/article/10.1088/1361-6420/ab15df" target="_blank" rel="noopener">
-        Inverse Problems 35(7):074001, 2019
-      </a>
-    </div>
-  </li>
 
   <li>
-    <div class="pub-title">
-      Asymptotic distributions of largest Pearson correlation coefficients under dependent structures (with T. Jiang).
-    </div>
-    <div class="pub-venue">
-      <a class="journal" href="https://projecteuclid.org/journals/annals-of-statistics/volume-53/issue-3/Asymptotic-distributions-of-largest-Pearson-correlation-coefficients-under-dependent-structures/10.1214/24-AOS2462.short" target="_blank" rel="noopener">
-        Annals of Statistics 53(3):907–928, 2025
-      </a>
-    </div>
+    <span class="pub-title">
+      <span class="paper-title">Microlocal analysis for spherical Radon transform: two nonstandard problems</span>
+      (with L. Nguyen).
+    </span>
+    <span class="pub-venue">
+      <a class="journal"
+         href="https://iopscience.iop.org/article/10.1088/1361-6420/ab15df"
+         target="_blank" rel="noopener">Inverse Problems 35(7):074001, 2019</a>.
+      <a class="pdf-link"
+         href="https://iopscience.iop.org/article/10.1088/1361-6420/ab15df"
+         target="_blank" rel="noopener"
+         aria-label="PDF for Microlocal analysis for spherical Radon transform: two nonstandard problems">pdf</a>
+    </span>
   </li>
 
   <li>
-    <div class="pub-title">
-      Lightspeed geometric dataset distance via sliced optimal transport (with H. Nguyen, K. Nguyen, N. Ho).
-    </div>
-    <div class="pub-venue">
-      <a class="journal" href="https://arxiv.org/abs/2501.18901" target="_blank" rel="noopener">
-        International Conference on Machine Learning (ICML), 2025
-      </a>
-    </div>
+    <span class="pub-title">
+      <span class="paper-title">Asymptotic distributions of largest Pearson correlation coefficients under dependent structures</span>
+      (with T. Jiang).
+    </span>
+    <span class="pub-venue">
+      <a class="journal"
+         href="https://projecteuclid.org/journals/annals-of-statistics/volume-53/issue-3/Asymptotic-distributions-of-largest-Pearson-correlation-coefficients-under-dependent-structures/10.1214/24-AOS2462.short"
+         target="_blank" rel="noopener">Annals of Statistics 53(3):907&ndash;928, 2025</a>.
+      <a class="pdf-link"
+         href="https://arxiv.org/abs/2304.13102"
+         target="_blank" rel="noopener"
+         aria-label="PDF for Asymptotic distributions of largest Pearson correlation coefficients under dependent structures">pdf</a>
+    </span>
   </li>
 
   <li>
-    <div class="pub-title">
-      Largest entries of high-dimensional sample covariance matrix under auto-regressive structure (with T. Jiang).
-    </div>
-    <div class="pub-venue">
-      <a class="journal" href="https://www.e-publications.org/ims/submission/AAP/user/submissionFile/65959?confirm=934ea880" target="_blank" rel="noopener">
-        Annals of Applied Probability (to appear)
-      </a>
-    </div>
+    <span class="pub-title">
+      <span class="paper-title">Lightspeed geometric dataset distance via sliced optimal transport</span>
+      (with H. Nguyen, K. Nguyen, and N. Ho).
+    </span>
+    <span class="pub-venue">
+      <a class="journal"
+         href="https://arxiv.org/abs/2501.18901"
+         target="_blank" rel="noopener">International Conference on Machine Learning (ICML), 2025</a>.
+      <a class="pdf-link"
+         href="https://arxiv.org/abs/2501.18901"
+         target="_blank" rel="noopener"
+         aria-label="PDF for Lightspeed geometric dataset distance via sliced optimal transport">pdf</a>
+    </span>
   </li>
 
   <li>
-    <div class="pub-title">
-      Asymptotic analysis of high-dimensional uniformity tests under heavy-tailed alternatives (with T. Jiang).
-    </div>
-    <div class="pub-venue">
-      <a class="journal" href="https://drive.google.com/file/d/1FhWiZQ6OyyIOj-volLgG3h7T73FVcFma/view" target="_blank" rel="noopener">
-        Information and Inference: A Journal of the IMA (major revision)
-      </a>
-    </div>
-  </li>
-
-   <li>
-  <div class="pub-title">
-  Convergence and Stability Analysis of Self-Consuming Generative Models with Heterogeneous Human Curation (with H. Zhao and J. Fu).
-    </div>
-    <div class="pub-venue">
-      <a class="journal" href="https://arxiv.org/abs/2511.09002" rel="noopener">
-      JMLR (under review)
-      </a>
-    </div>
-  </li>
-  
-
-  <li>
-    <div class="pub-title">
-      Detecting non-uniform patterns on high-dimensional hyperspheres (with T. Jiang).
-    </div>
-    <div class="pub-venue">
-      <a class="journal" href="https://arxiv.org/abs/2506.00444" target="_blank" rel="noopener">
-        Annals of Applied Probability (reject & resubmit, resubmitted)
-      </a>
-    </div>
-  </li>
-
- 
-
-  <li>
-    <div class="pub-title">
-      Maximum of sparsely equicorrelated Gaussian fields and applications (with J. Heiny, T. Jiang and Y. Qi).
-    </div>
-    <div class="pub-venue">
-      <a class="journal" href="https://arxiv.org/abs/2603.05306v1" target="_blank" rel="noopener">
-        Annals of Applied Probability (under review)
-      </a>
-    </div>
-  </li>
-
-   <li>
-    <div class="pub-title">
-      Time-uniform bounds for iterated algorithms (with A. Rinaldo, P. Sarkar).
-    </div>
-    <div class="pub-venue">
-      <a class="journal" href="https://arxiv.org/abs/2511.18273" rel="noopener">
-      preprint
-      </a>
-    </div>
-  </li>
-
-   <li>
-    <div class="pub-title">
-      A note on time-uniform concentration inequality for matrix products
- (with A. Rinaldo).
-    </div>
-    <div class="pub-venue">
-      <a class="journal" href="https://arxiv.org/abs/2511.20794" rel="noopener">
-      preprint
-      </a>
-    </div>
-  </li>
-
-  
-
-  <li>
-    <div class="pub-title">
-      Fluctuation of Riesz energy on the hyperspheres (with T. Jiang).
-    </div>
-    <div class="pub-venue">
-      <span class="journal-plain">Preprint</span>
-    </div>
+    <span class="pub-title">
+      <span class="paper-title">Largest entries of high-dimensional sample covariance matrix under autoregressive structure</span>
+      (with T. Jiang).
+    </span>
+    <span class="pub-venue">
+      <a class="journal"
+         href="https://projecteuclid.org/journals/annals-of-applied-probability/volume-36/issue-3/Largest-entries-of-high-dimensional-sample-covariance-matrix-under-autoregressive/10.1214/25-AAP2234.short"
+         target="_blank" rel="noopener">Annals of Applied Probability 36(3):1931&ndash;1971, 2026</a>.
+      <a class="pdf-link"
+         href="https://projecteuclid.org/journals/annals-of-applied-probability/volume-36/issue-3/Largest-entries-of-high-dimensional-sample-covariance-matrix-under-autoregressive/10.1214/25-AAP2234.short"
+         target="_blank" rel="noopener"
+         aria-label="PDF for Largest entries of high-dimensional sample covariance matrix under autoregressive structure">pdf</a>
+    </span>
   </li>
 
   <li>
-    <div class="pub-title">
-      Optimal test for the compound symmetric correlation structure in ultra-high dimensions (with J. Fu, T. Jiang, W. Xiong).
-    </div>
-    <div class="pub-venue">
-      <span class="journal-plain">Preprint</span>
-    </div>
+    <span class="pub-title">
+      <span class="paper-title">Asymptotic analysis of high-dimensional uniformity tests under heavy-tailed alternatives</span>
+      (with T. Jiang).
+    </span>
+    <span class="pub-venue">
+      <a class="journal"
+         href="https://drive.google.com/file/d/1FhWiZQ6OyyIOj-volLgG3h7T73FVcFma/view"
+         target="_blank" rel="noopener">Information and Inference: A Journal of the IMA, to appear</a>.
+      <a class="pdf-link"
+         href="https://arxiv.org/abs/2506.00393"
+         target="_blank" rel="noopener"
+         aria-label="PDF for Asymptotic analysis of high-dimensional uniformity tests under heavy-tailed alternatives">pdf</a>
+    </span>
   </li>
 
- 
+  <li>
+    <span class="pub-title">
+      <span class="paper-title">Detecting non-uniform patterns on high-dimensional hyperspheres</span>
+      (with T. Jiang).
+    </span>
+    <span class="pub-venue">
+      <a class="journal"
+         href="https://arxiv.org/abs/2506.00444"
+         target="_blank" rel="noopener">Annals of Applied Probability</a>.
+      <span class="tagpill">[reject &amp; resubmission, resubmitted]</span>
+      <a class="pdf-link"
+         href="https://arxiv.org/abs/2506.00444"
+         target="_blank" rel="noopener"
+         aria-label="PDF for Detecting non-uniform patterns on high-dimensional hyperspheres">pdf</a>
+    </span>
+  </li>
+
+  <li>
+    <span class="pub-title">
+      <span class="paper-title">Exact detection threshold of the packing test</span>.
+    </span>
+    <span class="pub-venue">
+      <a class="journal"
+         href="https://arxiv.org/abs/2608.00445"
+         target="_blank" rel="noopener">Bernoulli</a>.
+      <span class="tagpill">[under review]</span>
+      <a class="pdf-link"
+         href="https://arxiv.org/abs/2608.00445"
+         target="_blank" rel="noopener"
+         aria-label="PDF for Exact detection threshold of the packing test">pdf</a>
+    </span>
+  </li>
+
+  <li>
+    <span class="pub-title">
+      <span class="paper-title">Convergence and stability analysis of self-consuming generative models with heterogeneous curation</span>
+      (with J. Fu and H. Zhao).
+    </span>
+    <span class="pub-venue">
+      <a class="journal"
+         href="https://arxiv.org/abs/2511.09002"
+         target="_blank" rel="noopener">Journal of Machine Learning Research</a>.
+      <span class="tagpill">[under review]</span>
+      <a class="pdf-link"
+         href="https://arxiv.org/abs/2511.09002"
+         target="_blank" rel="noopener"
+         aria-label="PDF for Convergence and stability analysis of self-consuming generative models with heterogeneous curation">pdf</a>
+    </span>
+  </li>
+
+  <li>
+    <span class="pub-title">
+      <span class="paper-title">Maximum of sparsely equicorrelated Gaussian fields and applications</span>
+      (with J. Heiny, T. Jiang, and Y. Qi).
+    </span>
+    <span class="pub-venue">
+      <a class="journal"
+         href="https://drive.google.com/file/d/1iF1QlpWFt4Y-C34mqgzQEvVj6l8FlKxS/view?usp=share_link"
+         target="_blank" rel="noopener">Annales de l'Institut Henri Poincar&eacute; (B) Probabilit&eacute;s et Statistiques</a>.
+      <span class="tagpill">[under review]</span>
+      <a class="pdf-link"
+         href="https://drive.google.com/file/d/1iF1QlpWFt4Y-C34mqgzQEvVj6l8FlKxS/view?usp=share_link"
+         target="_blank" rel="noopener"
+         aria-label="PDF for Maximum of sparsely equicorrelated Gaussian fields and applications">pdf</a>
+    </span>
+  </li>
+
+  <li>
+    <span class="pub-title">
+      <span class="paper-title">Time-uniform bounds for iterative algorithms</span>
+      (with A. Rinaldo and P. Sarkar).
+    </span>
+    <span class="pub-venue">
+      <a class="journal"
+         href="https://drive.google.com/file/d/13Fc48XZz3Nll1rtYwesXVWpiJ7Do0YvX/view?usp=sharing"
+         target="_blank" rel="noopener">Annals of Statistics</a>.
+      <span class="tagpill">[to be submitted]</span>
+      <a class="pdf-link"
+         href="https://arxiv.org/abs/2511.18273"
+         target="_blank" rel="noopener"
+         aria-label="PDF for Time-uniform bounds for iterative algorithms">pdf</a>
+    </span>
+  </li>
+
+  <li>
+    <span class="pub-title">
+      <span class="paper-title">Streaming PCA: averaging from a geometric perspective</span>
+      (with A. Rinaldo and P. Sarkar).
+    </span>
+    <span class="pub-venue">
+      <span class="tagpill">[to be submitted]</span>
+      <a class="pdf-link"
+         href="https://drive.google.com/file/d/1OT1UTko_FEM0dQ_Y2ZLIeRlU4ANe5Kbk/view?usp=share_link"
+         target="_blank" rel="noopener"
+         aria-label="PDF for Streaming PCA: averaging from a geometric perspective">pdf</a>
+    </span>
+  </li>
+
+  <li>
+    <span class="pub-title">
+      <span class="paper-title">Making Oja's algorithm converge with constant step sizes</span>
+      (with A. Rinaldo and P. Sarkar).
+    </span>
+    <span class="pub-venue">
+      <span class="tagpill">[to be submitted]</span>
+    </span>
+  </li>
+
+  <li>
+    <span class="pub-title">
+      <span class="paper-title">Extreme principal minors of Wishart matrices</span>
+      (with Z. Rui, T. Jiang, and J. Yao).
+    </span>
+    <span class="pub-venue">
+      <a class="journal"
+         href="https://arxiv.org/abs/2608.13154"
+         target="_blank" rel="noopener">Annals of Applied Probability</a>.
+      <span class="tagpill">[under review]</span>
+      <a class="pdf-link"
+         href="https://arxiv.org/abs/2608.13154"
+         target="_blank" rel="noopener"
+         aria-label="PDF for Extreme principal minors of Wishart matrices">pdf</a>
+    </span>
+  </li>
+
+  <li>
+    <span class="pub-title">
+      <span class="paper-title">On the sample correlation matrix under symmetric heavy-tailed data</span>
+      (with J. Heiny).
+    </span>
+    <!-- <span class="pub-venue">
+      <span class="tagpill">[to be submitted]</span>
+    </span> -->
+  </li>
+
+  <li>
+    <span class="pub-title">
+      <span class="paper-title">A note on time-uniform bound for matrix product</span>
+      (with A. Rinaldo).
+    </span>
+    <span class="pub-venue">
+      <span class="tagpill">[preprint]</span>
+      <a class="pdf-link"
+         href="https://arxiv.org/abs/2511.20794"
+         target="_blank" rel="noopener"
+         aria-label="PDF for A note on time-uniform bound for matrix product">pdf</a>
+    </span>
+  </li>
+
+  <li>
+    <span class="pub-title">
+      <span class="paper-title">Straightness, non-straightness and approximate straightness of two-steps Rectified Flows</span>
+      (with S. Roy, A. Rinaldo, and P. Sarkar).
+    </span>
+  </li>
+
+  <li>
+    <span class="pub-title">
+      <span class="paper-title">Fluctuation of Riesz energy on the hyperspheres</span>
+      (with T. Jiang).
+    </span>
+    <!-- <span class="pub-venue">
+      <span class="tagpill">[preprint]</span>
+      <a class="pdf-link"
+         href="https://drive.google.com/file/d/1EJ_arhnaWkjbTvWGlEM6s9Uc5rpCAMGV/view?usp=sharing"
+         target="_blank" rel="noopener"
+         aria-label="PDF for Fluctuation of Riesz energy on the hyperspheres">pdf</a>
+    </span> -->
+  </li>
+
+  <li>
+    <span class="pub-title">
+      <span class="paper-title">Heavy-tailed U-statistics in high dimensions and applications</span>
+      (with J. Heiny and X. Hu).
+    </span>
+    <!-- <span class="pub-venue">
+      <a class="journal"
+         href="https://www.e-publications.org/ims/submission/AAP/user/submissionFile/65959?confirm=934ea880"
+         target="_blank" rel="noopener">Bernoulli</a>.
+      <span class="tagpill">[to be submitted]</span>
+    </span> -->
+  </li>
+
+  <li>
+    <span class="pub-title">
+      <span class="paper-title">On the power of the MaxT method</span>
+      (with Z. Song and A. Rinaldo).
+    </span>
+  </li>
+
 </ol>
 
-<h2 class="pub-header" style="margin-top:1.25rem;">Working papers</h2>
-
-<ol class="pub-list" start="13">
-
-  <li>
-   <div class="pub-title">
-  Efficient Elliptical Component Analysis I: Polyak-Ruppert averaging.
-    </div>
-         Working paper
-  </li>
-
-  <li>
-   <div class="pub-title">
-Efficient Elliptical Component Analysis II: adaptive learning rates.
-    </div>
-         Working paper
-  </li>
-
-   <li>
-   <div class="pub-title">
-On the straightness of 2-RF (with S. Roy, A. Rinaldo and P. Sarkar)
-    </div>
-         Working paper
-  </li>
-
-   <li>
-   <div class="pub-title">
-  Streamming heteroskedastic PCA.
-    </div>
-         Working paper
-  </li>
-
-
-  <li>
-    <div class="pub-title">
-    Estimating the order of soft-max gating mixture-of-experts (with N. Ho and H. Nguyen).
-    </div>
-         Working paper
-  </li>
-
-   
-
-  <li>
-   <div class="pub-title">
-    Heavy-tailed U-statistics in high dimensions and applications  (with J. Heiny and X. Hu).
-    </div>
-         Working paper
-  </li>
-
-  <li>
-   <div class="pub-title">
-    On the detection threshold of the Packing test.
-    </div>
-         Working paper
-  </li>
-
-  
-</ol>
-
-
-
-
+</body>
+</html>
