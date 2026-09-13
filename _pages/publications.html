@@ -16,7 +16,11 @@ author_profile: true
     --pdf-border: #00FFFF;
     --cv-serif: "Palatino Linotype", Palatino, "Book Antiqua",
                 "TeX Gyre Pagella", Georgia, serif;
+  }
 
+  /* Keep the CV-style font. */
+  .page__title,
+  .pub-list {
     font-family: var(--cv-serif);
   }
 
@@ -26,6 +30,7 @@ author_profile: true
     padding-bottom: 0.4rem;
   }
 
+  /* One continuous citation per paper; long entries wrap naturally. */
   .pub-list {
     list-style: decimal;
     padding-left: 1.55rem;
@@ -55,6 +60,7 @@ author_profile: true
     line-height: inherit;
   }
 
+  /* Journal and conference names: bold blue. */
   .pub-list a.journal,
   .pub-list a.journal:visited {
     color: var(--accent);
@@ -68,6 +74,7 @@ author_profile: true
     text-decoration: underline;
   }
 
+  /* Status labels remain red. */
   .pub-list .tagpill {
     color: var(--tag);
     font-size: 0.82em;
@@ -75,6 +82,7 @@ author_profile: true
     white-space: nowrap;
   }
 
+  /* Small boxed PDF links. */
   .pub-list a.pdf-link,
   .pub-list a.pdf-link:visited {
     display: inline-block;
@@ -180,8 +188,8 @@ author_profile: true
     <span class="pub-venue">
       <a class="journal"
          href="https://arxiv.org/abs/2506.00444"
-         target="_blank" rel="noopener">Annals of Statistics</a>.
-      <span class="tagpill">[reject &amp; resubmission]</span>
+         target="_blank" rel="noopener">Annals of Applied Probability</a>.
+      <span class="tagpill">[reject &amp; resubmission, resubmitted]</span>
       <a class="pdf-link"
          href="https://arxiv.org/abs/2506.00444"
          target="_blank" rel="noopener"
