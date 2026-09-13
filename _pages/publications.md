@@ -303,7 +303,7 @@
       <a class="journal"
          href="https://arxiv.org/abs/2608.13154"
          target="_blank" rel="noopener">Annals of Applied Probability</a>.
-      <span class="tagpill">[under review]</span>
+      <span class="tagpill">[to be submitted]</span>
       <a class="pdf-link"
          href="https://arxiv.org/abs/2608.13154"
          target="_blank" rel="noopener"
@@ -316,9 +316,9 @@
       <span class="paper-title">On the sample correlation matrix under symmetric heavy-tailed data</span>
       (with J. Heiny).
     </span>
-    <!-- <span class="pub-venue">
+    <span class="pub-venue">
       <span class="tagpill">[to be submitted]</span>
-    </span> -->
+    </span>
   </li>
 
   <li>
@@ -337,7 +337,7 @@
 
   <li>
     <span class="pub-title">
-      <span class="paper-title">Straightness, non-straightness and approximate straightness of two-steps Rectified Flows</span>
+      <span class="paper-title">Sharp threshold for the straightness of two-step Rectified flows</span>
       (with S. Roy, A. Rinaldo, and P. Sarkar).
     </span>
   </li>
@@ -347,13 +347,13 @@
       <span class="paper-title">Fluctuation of Riesz energy on the hyperspheres</span>
       (with T. Jiang).
     </span>
-    <!-- <span class="pub-venue">
+    <span class="pub-venue">
       <span class="tagpill">[preprint]</span>
       <a class="pdf-link"
          href="https://drive.google.com/file/d/1EJ_arhnaWkjbTvWGlEM6s9Uc5rpCAMGV/view?usp=sharing"
          target="_blank" rel="noopener"
          aria-label="PDF for Fluctuation of Riesz energy on the hyperspheres">pdf</a>
-    </span> -->
+    </span>
   </li>
 
   <li>
@@ -361,12 +361,12 @@
       <span class="paper-title">Heavy-tailed U-statistics in high dimensions and applications</span>
       (with J. Heiny and X. Hu).
     </span>
-    <!-- <span class="pub-venue">
+    <span class="pub-venue">
       <a class="journal"
          href="https://www.e-publications.org/ims/submission/AAP/user/submissionFile/65959?confirm=934ea880"
          target="_blank" rel="noopener">Bernoulli</a>.
       <span class="tagpill">[to be submitted]</span>
-    </span> -->
+    </span>
   </li>
 
   <li>
