@@ -6,7 +6,6 @@ author_profile: false
 ---
 
 <style>
-  /* Keep the page readable in light and dark-interface previews. */
   html {
     color-scheme: light;
     background-color: #fff;
@@ -17,11 +16,11 @@ author_profile: false
     color: #111;
   }
 
-  /* Center the publication block with equal margins. */
+  /* Wider centered block. */
   #main {
     box-sizing: border-box;
     width: calc(100% - 48px);
-    max-width: 1200px;
+    max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 12px;
@@ -93,7 +92,7 @@ author_profile: false
     line-height: inherit;
   }
 
-  /* Journal and conference names: bold blue. */
+  /* Journal and conference names. */
   .pub-list a.journal,
   .pub-list a.journal:visited {
     color: var(--accent);
@@ -107,7 +106,7 @@ author_profile: false
     text-decoration: underline;
   }
 
-  /* Status labels: red. */
+  /* Status labels. */
   .pub-list .tagpill {
     color: var(--tag);
     font-size: 0.82em;
@@ -115,7 +114,7 @@ author_profile: false
     white-space: nowrap;
   }
 
-  /* Small boxed PDF links. */
+  /* PDF links. */
   .pub-list a.pdf-link,
   .pub-list a.pdf-link:visited {
     display: inline-block;
@@ -130,7 +129,7 @@ author_profile: false
     text-decoration: none;
   }
 
-  /* Desktop: each paper stays on one line. */
+  /* Desktop: one line per paper. */
   .pub-list .pub-single-line {
     display: inline-block;
     width: 100%;
@@ -150,7 +149,7 @@ author_profile: false
     margin: 0;
   }
 
-  /* Mobile: automatically wrap when the available width is insufficient. */
+  /* Mobile: wrap automatically when needed. */
   @media (max-width: 767px) {
     .pub-list .pub-single-line {
       display: inline;
